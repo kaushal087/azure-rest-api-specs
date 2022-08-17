@@ -1005,9 +1005,10 @@
         "subscriptions": {
           "type": "array",
           "items": {
-            "type": "string"
+            "x-ms-client-flatten": true,
+            "$ref": "#/definitions/SubscriptionId"
           },
-          "description": "Subscription id in the ARM id format."
+          "description": "List of subscription ids"
         },
         "networkSecurityPerimeters": {
           "type": "array",
@@ -1019,6 +1020,15 @@
         }
       },
       "description": "Properties of NSP access rule."
+    },
+    "SubscriptionId": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Subscription id in the ARM id format."
+        }
+      }
     },
     "PerimeterBasedAccessRule": {
       "type": "object",
