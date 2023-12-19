@@ -1144,7 +1144,7 @@
       "type": "object",
       "properties": {
         "properties": {
-          "x-ms-client-flatten": true,
+          "x-ms-client-flatten": false,
           "$ref": "#/definitions/NetworkSecurityPerimeterProperties",
           "description": "The network security perimeter properties"
         },
@@ -1229,7 +1229,7 @@
       "type": "object",
       "properties": {
         "properties": {
-          "x-ms-client-flatten": true,
+          "x-ms-client-flatten": false,
           "$ref": "#/definitions/NspProfileProperties",
           "description": "Properties of the network security perimeter profile"
         },
@@ -1292,7 +1292,7 @@
       "type": "object",
       "properties": {
         "properties": {
-          "x-ms-client-flatten": true,
+          "x-ms-client-flatten": false,
           "$ref": "#/definitions/NspAccessRuleProperties",
           "description": "Properties of the NSP access rule."
         },
@@ -1372,7 +1372,7 @@
         "subscriptions": {
           "type": "array",
           "items": {
-            "x-ms-client-flatten": true,
+            "x-ms-client-flatten": false,
             "$ref": "#/definitions/SubscriptionId"
           },
           "description": "List of subscription ids"
@@ -1381,7 +1381,7 @@
           "readOnly": true,
           "type": "array",
           "items": {
-            "x-ms-client-flatten": true,
+            "x-ms-client-flatten": false,
             "$ref": "#/definitions/PerimeterBasedAccessRule"
           },
           "description": "Rule specified by the perimeter id."
@@ -1436,7 +1436,7 @@
       "type": "object",
       "properties": {
         "properties": {
-          "x-ms-client-flatten": true,
+          "x-ms-client-flatten": false,
           "$ref": "#/definitions/NspAssociationProperties",
           "description": "Properties of the NSP resource association."
         },
@@ -1524,7 +1524,7 @@
       "type": "object",
       "properties": {
         "properties": {
-          "x-ms-client-flatten": true,
+          "x-ms-client-flatten": false,
           "$ref": "#/definitions/PerimeterAssociableResourceProperties",
           "description": "Properties of the perimeter associable resource."
         },
@@ -1635,7 +1635,7 @@
       "type": "object",
       "properties": {
         "properties": {
-          "x-ms-client-flatten": true,
+          "x-ms-client-flatten": false,
           "$ref": "#/definitions/NspLinkProperties",
           "description": "Properties of the network security perimeter link resource."
         }
@@ -1750,7 +1750,7 @@
       "type": "object",
       "properties": {
         "properties": {
-          "x-ms-client-flatten": true,
+          "x-ms-client-flatten": false,
           "$ref": "#/definitions/NspLinkReferenceProperties",
           "description": "Properties of the network security perimeter linkReference resource."
         }
