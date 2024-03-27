@@ -11,7 +11,7 @@
         "value": [
           {
             "name": "testNSP1",
-            "id": "/subscriptions/subId/resourceGroup/rg1/providers/Microsoft.Network/networkSecurityPerimeters/testNSP1",
+            "id": "/subscriptions/subId/resourceGroups/rg1/providers/Microsoft.Network/networkSecurityPerimeters/testNSP1",
             "type": "Microsoft.Network/networkSecurityPerimeters",
             "tags": {},
             "location": "East US 2 EUAP",
@@ -22,7 +22,7 @@
           },
           {
             "name": "testNSP2",
-            "id": "/subscriptions/subId/resourceGroup/rg1/providers/Microsoft.Network/networkSecurityPerimeters/testNSP2",
+            "id": "/subscriptions/subId/resourceGroups/rg1/providers/Microsoft.Network/networkSecurityPerimeters/testNSP2",
             "type": "Microsoft.Network/networkSecurityPerimeters",
             "tags": {},
             "location": "East US 2 EUAP",
@@ -32,7 +32,7 @@
             }
           }
         ],
-        "nextLink": "{baseurl}/subscriptions/subId/resourceGroup/rg1/providers/Microsoft.Network/networkSecurityPerimeters?api-version=2023-07-01-preview&$skipToken=10"
+        "nextLink": "{baseurl}/subscriptions/subId/resourceGroups/rg1/providers/Microsoft.Network/networkSecurityPerimeters?api-version=2023-07-01-preview&$skipToken=10"
       }
     }
   }

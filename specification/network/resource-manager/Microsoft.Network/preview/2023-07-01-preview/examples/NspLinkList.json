@@ -36,7 +36,7 @@
             }
           }
         ],
-        "nextLink": "{baseurl}/subscriptions/subId/resourceGroup/rg1/providers/Microsoft.Network/networkSecurityPerimeters/nsp1/links?api-version=2023-07-01-preview&$skipToken=10"
+        "nextLink": "{baseurl}/subscriptions/subId/resourceGroups/rg1/providers/Microsoft.Network/networkSecurityPerimeters/nsp1/links?api-version=2023-07-01-preview&$skipToken=10"
       }
     }
   }
